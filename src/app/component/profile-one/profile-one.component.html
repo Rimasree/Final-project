@@ -1,0 +1,113 @@
+<!-- <p>create works!</p> -->
+<div class="containers">
+  <div class="float-end mt-2 mb-2">
+    <button class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">Add Blog</button>&nbsp;&nbsp;
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div style="background-color: orange" class="modal-header">
+          <h5 style="color: white;" class="modal-title" id="exampleModalLabel">Write Your Blog Here..</h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <div class="container">
+            <form [formGroup]="RecipeForm">
+         
+            
+              <div class="form-group">
+                  <label for="exampleInputEmail1" style="color: orange;">Blog Heading</label>
+                  <textarea class="form-control"id="exampleFormControlTextarea2" formControlName="heading" rows="1"></textarea>
+                </div>
+           
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1" style="color: orange;">Write Blog Content Here..</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1"formControlName="content" rows="3"></textarea>
+                </div>
+                
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" style="color: orange;">Enter Name</label>
+                    <input type="text" class="form-control" formControlName="name" placeholder="Enter name"> 
+                  </div>
+                  <div style="background-color: orange;"class="modal-footer py-3 mt-3">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancel</button>
+                  
+                    <button (click)="addRecipe(this.RecipeForm.value)"[disabled]="this.RecipeForm.invalid" class="btn btn-dark">Add</button>
+                  
+                  </div>
+            </form>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- 
+  <div class="container">
+    <h1 class="m-5 text-center">MY BLOGS</h1>
+    <hr>
+    <div class="row">
+     <div class="col-lg-4 col-md-6 col-sm-12"  *ngFor="let item of data">
+       <div class="blog_card">
+      <div class="blog_card_image">
+        <img src="https://abhishekdana1999.github.io/Mywebsite/img/blog_1.png" alt="">
+      </div> -->
+      <div class="container">
+        <h1 class="mt-5 text-center">MY BLOGS</h1>
+        <hr>
+        <div [ngSwitch]="filteredData?.length">
+          <!-- When filteredData is null or empty -->
+          <div *ngSwitchCase="null">
+            <h4 class="text-center" style="color: orange; font-size: 50px;">No blogs found for you.</h4>
+          </div>
+      
+          <!-- When filteredData has 0 items -->
+          <div *ngSwitchCase="0">
+            <h4 class="text-center" style="color: orange; font-size: 50px;">No blogs found for you.</h4>
+          </div>
+      
+          <!-- When filteredData has 1 item -->
+          <div *ngSwitchCase="1">
+            <!-- Display the single blog here -->
+            <h4 class="text-center" style="color: orangered; font-size: 40px;">Found 1 blog:</h4>
+            <!-- Add the code to display the blog here -->
+          </div>
+      
+          <!-- When filteredData has more than 1 item -->
+          <div *ngSwitchDefault>
+            <h4 class="text-center" style="color: orangered; font-size: 40px;">Found {{filteredData.length}} blogs:</h4>
+            <!-- Add the code to display all blogs here -->
+          </div>
+        </div>
+      
+        <div class="row">
+          <div *ngFor="let x of filteredData" class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="card text-center text-danger py-5 px-3 mt-2 mb-4 bg-warning bg-opacity-25">
+              <h2>{{ x.heading }}</h2>
+              <p>{{ x.content }}</p>
+              <!-- Add any other relevant details you want to display -->
+              <div class="d-flex justify-content-between">
+                <a routerLink="details/{{x.id}}">
+                  <button class="btn btn-warning" style="font-size: 15px;"><i class="fas fa-edit"></i></button>
+                </a>
+                <button (click)="deletion(x.id)" class="btn btn-danger" style="font-size: 12px;"><i class="fa fa-trash"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        
+     </div>
+     
+
+
+
+

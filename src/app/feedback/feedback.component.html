@@ -1,0 +1,91 @@
+<!-- <p>feedback works!</p> -->
+
+<div class="containers">
+    <h2 style="text-align: center;">Search Your Recipe Here....</h2> 
+  
+    <form #searchItm="ngForm" (ngSubmit)="searchItem(searchItm)">
+        
+          <div class="search-bar">
+                <input type="text" name="sText" ngModel placeholder="Search...">
+            
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+      <br>
+    </form>
+  
+    
+<ul>
+  <li *ngFor="let food of foods">
+      <a>
+      
+        <a class="foodonline" routerLink="/recipe/details/{{food?.id}}">
+      <img src="{{food.imageUrl}}" alt="food images">
+      <div class="content">
+          <div class="name">
+              {{food.name}}
+          </div>
+          <span class="favorite {{food.favorite? '':'not'}}" >❤️</span>
+          <div class="star">
+              <ng-container [ngSwitch]="food?.stars">
+                  <p class="card-text" *ngSwitchCase="1" style="color: rgb(223, 33, 33);">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>   
+                  </p>
+                  <p class="card-text" *ngSwitchCase="2">
+                      <i class="fa-solid fa-star" style="color: rgb(223, 33, 33);"></i>
+                      <i class="fa-solid fa-star" style="color: rgb(223, 33, 33);"></i>
+                      <i class="fa-solid fa-star" style="color: rgb(223, 33, 33);"></i>
+                      <i class="fa-solid fa-star-half-stroke" style="color: rgb(223, 33, 33);"></i>
+                      <i class="fa-regular fa-star" style="color: rgb(223, 33, 33);"></i>
+                      
+                  </p>
+                  <p class="card-text" *ngSwitchCase="3" style="color: rgb(223, 33, 33);">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                     
+                  </p>
+                  <p class="card-text" *ngSwitchCase="4">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <p class="card-text" *ngSwitchCase="5">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+              </ng-container>
+          </div>
+          <div class="product-item-footer">
+              <div class="origins">
+                  <span *ngFor="let origin of food.origins">
+                      {{origin}}
+                  </span>
+              </div>
+              <div class="cook-time">
+                  <span>🕐</span>
+                  {{food.cookTime}}
+              </div>
+          </div>
+          <!-- <div class="price">
+              {{food.price|currency}}
+          </div> -->
+      </div>
+    </a>
+
+</a>
+  </li>
+</ul>
+
+</div>
+<router-outlet></router-outlet>

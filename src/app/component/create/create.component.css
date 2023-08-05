@@ -1,0 +1,81 @@
+
+
+.containers {
+    margin-top: 80px;
+  }
+  
+  .close {
+    font-weight: 700;
+    font-size: 33px;
+    width: 50px;
+    border: none;
+    background: none;
+    color: white;
+  }
+  
+
+
+/* CSS for the card format with equal height */
+
+.container-fluid {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #fff;
+  flex: 1;
+}
+
+.card .card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .card-title {
+  /* color: rgb(244, 36, 143); */
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.card .card-text {
+  /* color: rgb(224, 119, 173); */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card .card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card .card-text.card-text-italic {
+  font-style: italic;
+}
+
+.card .d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .btn {
+  font-size: 15px;
+ 
+}
+
+.card .btn:last-child {
+  margin-left: 10px;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center; 
+ 
+  font-size: 60px;
+}

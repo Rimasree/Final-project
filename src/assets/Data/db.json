@@ -1,0 +1,81 @@
+{
+  "foods": [
+    {
+      "heading": " Love and Lemons",
+      "content": "Love and Lemons has been created by Jeanine Donofrio and her husband, Jack Mathews (“#1 taste-tester”). The blog’s name comes from the fact that Jeanine loves seasonal food, often finished off with a squeeze of lemon.\n\nMost of the recipes on the site are vegetarian.\n\nThe blog was founded in 2011 and has been recognized by prestigious food magazines like Food & Wine, Food52, Refinery29, SELF Magazine, and Oprah Magazine. It was named Readers’ Choice Best Cooking Blog by Saveur Magazine in 2014 and won a Saveur Editor’s Choice award in 2016.\n\nIf you are looking for a recipe, you can filter your search by season, holiday, special diet, meal type, or ingredient. Surprisingly there are only six recipes under the ingredient, lemon.",
+      "name": "suvojit",
+      "email": "suvojit78@gmail.com",
+      "id": 1
+    },
+    {
+      "heading": " Cookie and Kate",
+      "content": "Cookie and Kate is all about celebrating good food. Kate is Kathryne Taylor. Cookie is her dog – which Kate describes as a “mystery mutt,” or as a DNA test found, half schipperke and half dachshund/Australian koolie mix.\n\nKate is a photographer and cook from Oklahoma. She created the blog in 2010 and now works on it full-time.\n\nLike many of the other top food blogs featured here, Cookie and Kate features vegetarian and whole food recipes.\n\nThe site makes it easy to search for recipes. You can look for recipes by Course, Cuisine, Diet, Everyday, Ingredient, or Season.",
+      "name": "Soumi Ghosh",
+      "email": "soumi@gmail.com",
+      "id": 2
+    },
+    {
+      "heading": " Minimalist Baker",
+      "content": "Minimalist Baker is one of those sites where the name says it all. It shares plant-based recipes requiring 10 ingredients or less, 1 bowl, or 30 minutes or less to prepare. It publishes a new recipe every three days, with a mixture of savory and sweet dishes.\n\nDana Shultz is the recipe developer and blogger. She has a deep love for recipe experimentation and food photography. She has even expanded into creating a Essentials of Building a Great Food Blog Course.\n\nDespite the use of the word “baker” in the site’s name, it covers many different types of (predominantly vegan) cooking – sweets, entrees, breakfast, snacks, sides, and beverages.",
+      "name": "Rahul",
+      "email": "rsc1234@gmail.com",
+      "id": 3
+    },
+    {
+      "heading": "Smitten Kitchen",
+      "content": "Smitten Kitchen features delectable images of meals demanding to be eaten. Therefore should be no surprise that Smitten Kitchen has found great popularity with serious food fans.\n\nSmitten Kitchen summarizes itself as being “Fearless cooking from a tiny kitchen in New York City.” It was created by Deb Perelman who obsessed with the intricacies of food and cooking. As she says on her About page, she loves being able to wake and cook whatever she feels like that day.\n\nThe recipes are the heart of this site. There is a particular emphasis on stepped-up comfort foods. The site also includes numerous tutorials on topics as diverse as how to poach an egg and how to make tart doughs that don’t shrink up on you.\n\nDeb makes a point of only using commonly available ingredients.\n\nThe Recipes page splits all of the site’s recipes up by type, with additional subdivisions for Fruit, Meat, Sweets, and Vegetables.\n\n",
+      "name": "Rahul",
+      "email": "rsc1234@gmail.com",
+      "id": 4
+    },
+    {
+      "heading": "101 Cookbooks.",
+      "name": "Rimasree Ghosh",
+      "email": "ghoshrimasree123@gmail.com",
+      "content": "Heidi Swanson’s 101 Cookbooks focuses on providing healthy everyday recipes. It currently features over 700 vegetarian, whole food, vegan, and instant pot recipes.\n\nHeidi began the blog in 2003 when she looked at her vast collection of cookbooks and decided that it was time to stop collecting and start cooking. She was sick of repeating the same recipes over and over again. She felt it was time to explore the books in her collection.\n\nAs Heidi worked her way through her cookbooks, her skills and cooking knowledge improved, and she built her own repertoire of successful recipes.\n\nNowadays, Heidi chooses and writes about recipes that intersect her life, travels, and everyday interests. Often these are from her cookbook collection, but sometimes not.\n\nPosts/recipes can be organized by categories (e.g., whole grain, vegan, pasta, chocolate, etc), by ingredients, or by season.",
+      "id": 5
+    },
+    {
+      "heading": "Budget Bytes",
+      "content": "Budget Bytes aims to provide delicious recipes designed for small budgets. It recognizes that we can’t all afford to use expensive ingredients and cook recipes that take hours to prepare. It tries to cater to those with “Instagram taste and a peanut butter budget.”\n\nBudget Bytes is the creation of Beth Moncel. She wants to help people shop, cook, and eat smart. She provides numerous recipes on her blog, along with their cost analysis, preparation time, alternative preparations, and step-by-step photos of each recipe.\n\nBeth has developed six principles to keep her grocery budget low and reduce waste:\n\nPlan your meals\nUse ingredients wisely\nPortion control\nDon't be afraid of leftovers\nThe freezer is your friend\nShop wisely",
+      "name": "suvojit",
+      "email": "suvojit78@gmail.com",
+      "id": 6
+    },
+    {
+      "heading": " Closet Cooking",
+      "content": "Closet Cooking chronicles Kevin Lynch’s efforts to cook and develop recipes in his closet-sized kitchen. Kevin found cooking became his passion and obsession in his quest never to eat a boring meal again! Kevin considers it fun coming up with creative ways to serve tasty meals from a small kitchen!\n\nKevin has developed 2,600 recipes since he began the site. He gives pride of place to a Top Recipes section where he highlights his 100 most popular recipes.\n\nSome of his recent posts include:\n\nShawarma Seasoning\nSicilian Pizza\nStrawberry Lemonade Bars\nProsciutto Wrapped Mozzarella Balls\nPan Seared Balsamic Strawberry Chicken and Brie",
+      "name": "Soumi",
+      "email": "soumi@gmail.com",
+      "id": 7
+    },
+    {
+      "heading": "Damn Delicious",
+      "name": "Rimasree Ghosh",
+      "content": "Damn Delicious is the online home of Chungah Rhee (and her crazy corgi sidekick, Butters). Although Chungah grew up in a traditional Korean household, she comes from Queens and is now based in Los Angeles.\n\nShe began sharing her favorite recipes online in 2011 on a Tumblr account which in time grew into her Damn Delicious blog. The site has since attracted a team of individuals working together to create the best possible recipes.\n\nIt includes recipes, step-by-step tutorials, and videos showing visitors how they can make quick and easy meals as an everyday cook.",
+      "email": "ghoshrimasree123@gmail.com",
+      "id": 8
+    },
+    {
+      "heading": "Green Kitchen Stories",
+      "content": "Green Kitchen Stories features healthy vegetarian recipes by the Swedish-based couple, David Frenkiel and Luise Vindahl. Luise describes herself as the hippie-health-minded one, while David considers himself a vegetarian, food stylist, and photographer.\n\nDavid and Luise chose the name for their blog to represent their efforts to come up with healthy vegetarian recipes using whole food and organic products. They aim for their recipes to be as simple and pure as possible.\n\nThey split their recipes into:\n\nBreakfast & Brunch\nMain Dishes\nSoups\nSalads\nCakes & Desserts\nCookies & Sweets\nBread\nDrinks, Juices & Shakes\nSide Dishes, Jams, Spreads & Appetizers",
+      "name": "Rimasree Ghosh",
+      "email": "ghoshrimasree123@gmail.com",
+      "id": 9
+    },
+    {
+      "heading": "Serious Eats",
+      "content": "As its name suggests, Serious Eats takes a considered approach to the art of cooking. As well as the usual selection of recipes (split into Chicken, Pizza, Cocktails, Pasta, Burgers, Sandwiches, Desserts, and Salad) it includes an extensive section on Techniques. There is an entire section of the website devoted to grilling different types of food.\n\nSerious Eats includes a fascinating Features section. This includes pages ranging from Know Your Ingredients to Food Histories to guides to both steak and eggs.\n\nSerious Eats searches for definitive recipes, demonstrates trailblazing techniques and hard-core science and provides innovative guides to essential food and drink.\n\nThe website describes the “serious” in its name as meaning “impressive, audacious, inventive, well-made, or just seriously delicious.” Despite the name, they don’t believe in taking themselves too seriously – just doing things well.\n\nSerious Eats takes pride in not posting a recipe until they are absolutely sure theirs is different from and/or better than anything you’ll find elsewhere.",
+      "name": "Jyotirmoy",
+      "email": "jsunny@gmail.com",
+      "id": 10
+    },
+    {
+      "heading": " Recipe Girl",
+      "content": "RecipeGirl.com was founded in 2006 by Lori Lange. Lori used to be an elementary school teacher. She develops recipes that are all about easy eating. They are family-friendly but also perfect for entertaining guests. Recipegirls.com is home to over 3,000 dishes that you can prepare, and they all come with nutritional information, ratings, and what she likes to refer to as “big, beautiful photographs”. \n\nLori’s also written for brands like old Medal Flour, McCormick, Pepperidge Farm, Kraft, Betty Crocker, Smithfield, Tabasco, Nestle, King’s Hawaiian, M&M’S, Eggland’s Best, and Driscolls. If you’re searching for easy, tasty meal ideas, be sure to check Recipegirl.com out.",
+      "name": "Rimasree Ghosh",
+      "email": "ghoshrimasree123@gmail.com",
+      "id": 11
+    }
+  ]
+}

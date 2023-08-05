@@ -1,0 +1,43 @@
+<!-- <p>signup works!</p> -->
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div style="background-color:orange; color: azure;" class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Register Yourself</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="signupForm" (ngSubmit)="dataSubmit()">
+            <label for="exampleInputEmail1" style="color: black;">Enter First Name <span style="color: red;">*</span></label>
+            <input type="text" class="form-control" formControlName="first_name" placeholder="Enter name"> 
+
+            <label for="exampleInputEmail1" style="color: black;">Enter Last Name <span style="color: red;">*</span></label>
+            <input type="text" class="form-control" formControlName="last_name" placeholder="Enter name"> 
+          
+          <!-- <label for="exampleInputEmail1"style="color: black;">Contact Number <span style="color: red;">*</span></label>
+          <input type="digit" class="form-control" formControlName="number" placeholder="Enter Mobile Number">  -->
+       
+        <label for="exampleInputEmail1"style="color: black;">Enter EmailId <span style="color: red;">*</span></label>
+        <input type="email" class="form-control" formControlName="email" placeholder="username@gmail.com"> 
+      
+      <label for="exampleInputEmail1"style="color: black;">Enter Password <span style="color: red;">*</span></label>
+      <input type="password" class="form-control" formControlName="password" placeholder="password"> 
+    
+    <!-- <label for="exampleInputEmail1"style="color: black;">Enter Confirm Password <span style="color: red;">*</span></label>
+    <input type="password" class="form-control" formControlName="cpassword" placeholder="confirm password"> 
+   -->
+   <label for="Profile Pic">Profile Picture :</label>
+   <input type="file" id="pro_pic" (change)="onFileSelection($event)"> 
+          </form>
+        </div>
+        <div style="background-color: orange; color: azure;" class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark" (click)="dataSubmit()">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>

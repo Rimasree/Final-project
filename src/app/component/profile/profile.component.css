@@ -1,0 +1,83 @@
+/* Center the container using flexbox */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 525px;
+}
+
+/* Rest of the CSS styles for the card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  width: 600px; /* Adjust the width as per your requirement */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; /* To stack buttons vertically */
+}
+
+/* Styling for the profile image */
+.profile-image {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Styling for the card details section */
+.details {
+  flex: 1 1 auto;
+}
+
+/* Rest of the CSS styles for the card */
+.card-body {
+  margin-bottom: 20px;
+}
+
+/* Styling for the card text */
+.card-text {
+  font-size: 29px;
+  line-height: 1.5;
+  text-align: center;
+  color: orangered;
+}
+
+/* Styling for the logout button and custom button */
+.buttons {
+  display: flex;
+  justify-content: flex-end; /* To place the buttons at the end */
+  margin-top: 10px;
+}
+.buttons button {
+  margin-left: 10px; /* Adjust the value to control the gap between buttons */
+}
+
+.logout-btn button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border-color: #dc3545;
+}
+
+.logout-btn button:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.custom-btn button {
+  background-color: orange;
+  color: #ffffff;
+  border-color: orange;
+}
+
+.custom-btn button:hover {
+  background-color: orange;
+  border-color: orange;
+}

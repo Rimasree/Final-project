@@ -1,0 +1,38 @@
+<!-- <p>recipe works!</p> -->
+
+
+<div *ngIf="subData.length > 0" class="container">
+    <!-- Image and Name -->
+    <div class="banner">
+    <div class="col-md-12 text-center">
+        <img [src]="subData[0]?.imageUrl" alt="{{ subData[0]?.name }}" class="img-fluid rounded-top">
+        <h2 class="food-name">{{ subData[0]?.name }}</h2>
+    </div>
+</div>
+  
+
+
+    <!-- Ingredients section -->
+    
+    <div class="caption">
+    <div class="section">
+        <h3 class="section-title">Ingredients</h3>
+        <pre class="section-text">{{ subData[0]?.ings }}</pre>
+    </div>
+  
+    <!-- Recipe section -->
+    <div class="section">
+        <h3 class="section-title">Recipe</h3>
+        <pre class="section-text">{{ subData[0]?.prep }}</pre>
+    </div>
+  </div>
+</div>
+  
+  <div *ngIf="subData.length === 0" class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <p class="text-center">No data available for the selected food item.</p>
+        </div>
+    </div>
+  </div>
+  

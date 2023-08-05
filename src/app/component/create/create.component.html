@@ -1,0 +1,99 @@
+<!-- <p>create works!</p> -->
+<div class="containers">
+<!-- <div class="float-end mt-2 mb-2">
+  <button class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">Add Blog</button>&nbsp;&nbsp;
+</div> -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div style="background-color: orange" class="modal-header">
+        <h5 style="color: white;" class="modal-title" id="exampleModalLabel">Write Your Blog Here..</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="container">
+          <form [formGroup]="RecipeForm">
+       
+          
+            <div class="form-group">
+                <label for="exampleInputEmail1" style="color: orange;">Blog Heading</label>
+                <textarea class="form-control"id="exampleFormControlTextarea2" formControlName="heading" rows="1"></textarea>
+              </div>
+         
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1" style="color: orange;">Write Blog Content Here..</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1"formControlName="content" rows="3"></textarea>
+              </div>
+              
+                <div class="form-group">
+                  <label for="exampleInputEmail1" style="color: orange;">Enter Name</label>
+                  <input type="text" class="form-control" formControlName="name" placeholder="Enter name"> 
+                </div>
+                <div style="background-color: orange;"class="modal-footer py-3 mt-3">
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancel</button>
+                
+                  <button (click)="addRecipe(this.RecipeForm.value)"[disabled]="this.RecipeForm.invalid" class="btn btn-dark">Add</button>
+                
+                </div>
+          </form>
+      </div>
+     
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<br><br>
+<h1>Best Food Blogs to Sate your Hunger in 2023</h1>
+<div class="container-fluid">
+  
+  <div class="row">
+    <div *ngFor="let item of data" class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+      <div class="card text-center text-danger py-5 px-3 mt-2 mb-4 bg-warning bg-opacity-25">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: 800;color: orangered;">{{item.heading}}</h5>
+         
+          <p class="card-text" style="font-weight: bold;"> {{item.content|slice:0:200}}.....</p>
+         
+           
+            <button class="btn btn-warning w-25" data-bs-toggle="modal" [attr.data-bs-target]="'#exampleModalCenter' + item.id">Read More</button>
+        
+       
+        
+<div class="modal fade" *ngFor="let item of data" [id]="'exampleModalCenter' + item.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="color: orangered; font-weight: 800;">{{item.heading}}</h5>
+        <button type="button" class="close text-dark" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="card-text" style="font-weight: bold; color: orangered;">{{item.content}}</p>
+      </div>
+      <div class="modal-footer">
+        <p>Blog posted By - <p style="font-style: italic; font-weight: 500;">{{item.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>

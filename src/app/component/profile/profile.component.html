@@ -1,0 +1,32 @@
+<!-- <p>profile works!</p> -->
+<div class="container">
+  <div *ngIf="userDetails" class="card">
+    <div class="profile-image">
+      <img [src]="img_path" alt="food_img" class="profile-img">
+    </div>
+    <div class="details">
+      <div class="card-body">
+        <p class="card-text">Hello I'm {{userDetails?.first_name}} {{userDetails?.last_name}}</p>
+        <p class="card-text">{{userDetails?.email}}</p>
+      </div>
+      <div class="buttons">
+        <span class="custom-btn">
+          <a routerLink="/profileone">
+          <button class="btn btn-warning">My Blogs</button>
+        </a>
+        </span>
+        <span class="logout-btn">
+          <button class="btn btn-outline-danger" (click)="loggingOut()">Log Out</button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+
+
