@@ -1,14 +1,16 @@
 <!-- <p>home works!</p> -->
-<div class="header-fixed ">
+<div class="header">
   <nav class="navbar navbar-expand-lg bg-body-danger">
     <div class="container-fluid">
-      <i class='fas fa-utensils' style='font-size:36px' routerLink="/home-page"></i>
-      <h2><a class="nav-link"  routerLink="/home-page" style="color: orangered; font-size: 29px;">&nbsp;&nbsp;Online
+      
+      <h2><a class="nav-link"  routerLink="/home-page" style="color: orangered; font-size: 29px;">&nbsp;&nbsp;<i class='fas fa-utensils' style='font-size:36px' routerLink="/home-page"></i>&nbsp;Online
           Food Recipe!</a></h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <!-- <li class="nav-item">
           <i class='fas fa-utensils' style='font-size:36px' routerLink="/home-page"></i>
@@ -21,11 +23,10 @@
         &nbsp;
         <li class="nav-item">
           <a class="nav-link" aria-current="page" routerLink="/blog" style="color: aliceblue;"><i
-              class='fas fa-blog'></i>&nbsp;&nbsp; View Blog</a>
+              class='fas fa-blog'></i>&nbsp;&nbsp; Blog</a>
         </li>
       </ul>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <!-- <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -57,15 +58,18 @@
             <a class="navbar-brand" >
               <img [src]="image" class="rounded-circle"alt="" width="35" height="38" >
             </a>
-          </li>
-     
-          
+          </li>   
           </ul>
-
       </div>
+
     </div>
   </nav>
 </div>
+
+
+
+
+
 <app-signup></app-signup>
 <app-signin></app-signin>
 <!-- <app-navbar></app-navbar> -->
@@ -79,13 +83,13 @@
   </div>
     </ng-container >
     <ng-template #elseBlock>
-    <router-outlet></router-outlet>
   </ng-template>
-  <!-- <router-outlet></router-outlet> -->
+  <router-outlet></router-outlet>
 <!-- <hr>
 <br><br>
 <router-outlet></router-outlet> -->
 
+<!-- <router-outlet></router-outlet> -->
 
 <footer class="py-3 mt-5 mb-0" style="background-color: rgba(0, 0, 0, 0.717);">
   <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">

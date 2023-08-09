@@ -1,6 +1,15 @@
+:root{
+  --bgc-bullet: #F2994A;
+}
+img{
+  box-shadow: 0px 0px 30px orangered;
+  display:block;
+  margin:10px auto 20px;
+}
 .img-fluid {
-    width: 100%;
+    width: 40%;   
     border-radius: 10px 10px 0 0;
+   
   }
   
   .section {

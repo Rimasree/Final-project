@@ -43,7 +43,9 @@ h2{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
+.navbar-toggler {
+  background-color: white;
+  }
 
 
 
@@ -58,16 +60,16 @@ h2{
   margin-bottom: 0; /* Ensure there is no bottom margin */
 }
 
-@media screen and (max-width: 768px) {
-  /* Adjust the navbar for smaller screens */
+/* @media screen and (max-width: 768px) {
+
   .navbar {
-    height: 60px; /* Example height for small screens */
+    height: 60px; 
   }
 
-  /* Adjust font size and other styles for smaller screens */
+
   h2 {
-    font-size: 24px; /* Example font size for small screens */
+    font-size: 24px; 
   }
 
-  /* You can add more responsive styles as needed */
-}
+  
+} */

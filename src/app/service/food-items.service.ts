@@ -16,6 +16,7 @@ export class FoodItemsService {
       stars: 1,
       imageUrl: '/assets/food- (1).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
+      desc: "Fire up your taste buds with this fiery and flavorful pizza.The zesty tomato sauce, gooey cheese, and tender chicken are topped with a generous sprinkle of fiery spices that will make your mouth sing.With each cheesy, spicy bite, you'll be transported to flavor town, where every slice is a slice of pure pizza paradise!",
       ings: "¾ cup pizza sauce(180 mL)\n" +
         " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling\n" +
         "1 tablespoon olive oil\n" +
@@ -49,7 +50,7 @@ export class FoodItemsService {
       stars: 2,
       imageUrl: '/assets/food- (2).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Pepperoni is characteristically soft, slightly smoky, and bright red in color. Thinly sliced pepperoni is a popular pizza topping in American pizzerias. Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.",
       ings: "16 ounces pizza dough,store-bought or homemade(I like this no-knead version,though note that this recipe makes enough dough for 2 pizzas)\n" +
         "1/2 cup pizza sauce (see below)\n" +
         "18 to 20 slices pepperoni\n" +
@@ -86,7 +87,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food- (9).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "This healthy homemade chicken wrap recipe makes the best lunch or light dinner. The crispy tortilla, pan-seared chicken, spicy ranch, and crisp, fresh vegetable combination are sure to become a regular in your kitchen!",
       ings: "Sauce:\n\n" +
         "½ cup mayonnaise\n" +
         "¼ cup finely chopped seedless cucumber\n" +
@@ -119,7 +120,7 @@ export class FoodItemsService {
       stars: 1,
       imageUrl: '/assets/food- (10).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "A hamburger is a type of sandwich that involves a ground beef patty served between two halves of a round bun. Most of the time the meat is grilled or cooked in a hot skillet, though some recipes call for it to be baked.",
       ings: "1 ½ pounds lean ground beef\n" + "½ onion, finely chopped\n" + "½ cup shredded Colby Jack or Cheddar cheese\n" + "1 egg 1 (1 ounce) envelope dry onion soup mix\n" + "1 clove garlic, minced\n" + "1 tablespoon garlic powder\n" + "1 teaspoon soy sauce\n" + "1 teaspoon Worcestershire sauce\n" + "1 teaspoon dried parsley\n" + "1 teaspoon dried basil\n" + "1 teaspoon dried oregano\n" + "½ teaspoon crushed dried rosemary\n" + "salt and pepper to taste",
       prep: "Step 1:\n" + "Preheat an outdoor grill for high heat and lightly oil the grate.\n" +
 
@@ -139,7 +140,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food- (5).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Chicken soup is a soup made from chicken, simmered in water, usually with various other ingredients. The classic chicken soup consists of a clear chicken broth, often with pieces of chicken or vegetables; common additions are pasta, noodles, dumplings, or grains such as rice and barley.",
       ings: "Chicken: This homemade chicken soup starts with a 3-pound whole chicken.\n" +
         "Vegetables: You'll need carrots, celery, and an onion.\n" +
         "Seasonings: Simply season the soup with salt, pepper, and chicken bouillon granules (if you want).",
@@ -163,7 +164,7 @@ export class FoodItemsService {
       stars: 1,
       imageUrl: '/assets/food- (6).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Cheese balls are traditionally made with two kinds of cheese – cream cheese (or another soft cheese like quark cheese, mascarpone or ricotta) and a grated semi-soft or semi-firm cheese like cheddar, colby cheese, monterey jack cheese, or muenster.",
       ings: "1 (16 ounce) package bulk mild pork sausage\n" + "1 (16 ounce) package bulk hot pork sausage\n" + "1 (8 ounce) package shredded sharp Cheddar cheese\n" + "2 cups biscuit baking mix (such as Bisquick®)",
       prep: "Step 1:\n" + "Preheat oven to 400 degrees F (200 degrees C).\n" + "Step 2:\n" + "Line a baking sheet with aluminum foil.\n" +
         "Step 3:\n" + "Mix mild sausage and hot sausage in a large bowl until evenly blended.\n" +
@@ -182,10 +183,10 @@ export class FoodItemsService {
       price: 5,
       favorite: false,
       origins: ['India'],
-      stars: 3,
+      stars: 1,
       imageUrl: '/assets/food-15 (3).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Red velvet cake tastes like very mild cocoa with a slightly tart edge. The cream cheese frosting is the most forward flavor. Perhaps even more important than the taste is the texture: smooth, soft, tender and light with creamy icing.",
       ings: "3 c. cake flour, spooned and leveled, plus more for pans" +
         "1 tbsp. baking powder" +
         "1/2 tsp. Kosher salt" +
@@ -228,7 +229,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food-14 (4).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "This Thai prawn soup is made with fragrant herbs and it is spicy too. The basic stock consists of galangal, lemon grass, lime leaves!",
       ings: "8-10 bird’s eye chillies, chopped\n" +
         "4-5 large garlic cloves, peeled\n" +
         "500ml good quality chicken stock\n" +
@@ -248,11 +249,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
+      origins: ['Italy', 'East-China'],
       stars: 3,
       imageUrl: '/assets/food-14 (1).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter. It is a type of batter bread!",
       ings: "1 ½ cups all-purpose flour\n" +
         "2 tablespoons baking powder\n" +
         "1 tablespoon white sugar\n" +
@@ -279,7 +280,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food-14 (3).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Chicken tortilla soup actually is an authentic Mexican dish. The traditional soup is made with chicken broth, tomatoes, garlic, onion, chiles, and fried tortilla strips. There are also variations of the soup, like ones that include beans!",
       ings: "1 tablespoon olive oil\n" + "1 medium onion, chopped\n" + "3 cloves garlic, minced\n" +
         "1 (28 ounce) can crushed tomatoes\n" +
         "1 (10.5 ounce) can condensed chicken broth\n" +
@@ -315,40 +316,40 @@ export class FoodItemsService {
       price: 5,
       favorite: false,
       origins: ['India'],
-      stars: 3,
+      stars: 5,
       imageUrl: '/assets/food-14 (4).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
-      ings: "Buttermilk Soak\n"+
-      "3 cups buttermilk\n"+      
-      "2 tablespoons kosher salt\n"+      
-      "1 tablespoon freshly ground black pepper\n"+      
-      "2 teaspoons cayenne pepper\n"+      
-      "4 pounds chicken parts, including medium chicken wings, thighs, and drumsticks\n\n"+      
-      "Flour Dredge:\n\n"+      
-      "2 cups all-purpose flour\n"+      
-      "1 teaspoon onion powder\n"+      
-      "1 teaspoon garlic powder\n"+      
-      "1 teaspoon kosher salt\n"+      
-      "1 teaspoon freshly ground black pepper\n"+      
-      "1/2 teaspoon cayenne pepper\n"+     
-      "Vegetable oil, for frying",
-      prep: "Step 1:\n"+
-      "Gather the ingredients.\n"+      
-      "Step 2:\n"+    
-      "Make the buttermilk soak: In a large bowl, combine the buttermilk with the salt, black pepper, and cayenne.\n"+      
-      "Step 3:\n"+     
-      "Add the chicken and stir to coat. Let stand at room temperature for 2 hours or refrigerate for 4 hours.\n"+      
-      "Step 4:\n"+
-      "In a large, resealable plastic bag, mix the flour with the onion powder, garlic powder, salt, black pepper, and cayenne; shake to combine.\n"+      
-     "Step 5:\n"+
-      "Set a rack on a baking sheet. Working with one piece at a time, remove the chicken from the buttermilk soak, letting the excess drip back into the bowl. Dredge the chicken in the flour mixture, pressing so it adheres all over. Transfer the coated chicken to the rack and let stand for 30 minutes.\n"+      
-     "Step 6:\n"+
-      "In a deep skillet, heat 1 inch of the oil to 350°F. Set another rack over a baking sheet lined with paper towels. Fry the chicken in batches, maintaining the oil temperature at 315°F; turn once, until golden and an instant-read thermometer inserted in the thickest part of each piece registers 160°F, 15 to 18 minutes."+      
-     "Step 7:\n"+
-      "Transfer the chicken to the rack and let stand for 5 minutes.\n"+      
-     "Step 8:\n"+
-      "Enjoy warm or at room temperature."
+      desc: "Because of its slight acidity, buttermilk has the ability to tenderize the chicken, without it becoming tough and chewy. Using buttermilk also helps the chicken go nice and flaky when you dredge it through the dry mix!",
+      ings: "Buttermilk Soak\n" +
+        "3 cups buttermilk\n" +
+        "2 tablespoons kosher salt\n" +
+        "1 tablespoon freshly ground black pepper\n" +
+        "2 teaspoons cayenne pepper\n" +
+        "4 pounds chicken parts, including medium chicken wings, thighs, and drumsticks\n\n" +
+        "Flour Dredge:\n\n" +
+        "2 cups all-purpose flour\n" +
+        "1 teaspoon onion powder\n" +
+        "1 teaspoon garlic powder\n" +
+        "1 teaspoon kosher salt\n" +
+        "1 teaspoon freshly ground black pepper\n" +
+        "1/2 teaspoon cayenne pepper\n" +
+        "Vegetable oil, for frying",
+      prep: "Step 1:\n" +
+        "Gather the ingredients.\n" +
+        "Step 2:\n" +
+        "Make the buttermilk soak: In a large bowl, combine the buttermilk with the salt, black pepper, and cayenne.\n" +
+        "Step 3:\n" +
+        "Add the chicken and stir to coat. Let stand at room temperature for 2 hours or refrigerate for 4 hours.\n" +
+        "Step 4:\n" +
+        "In a large, resealable plastic bag, mix the flour with the onion powder, garlic powder, salt, black pepper, and cayenne; shake to combine.\n" +
+        "Step 5:\n" +
+        "Set a rack on a baking sheet. Working with one piece at a time, remove the chicken from the buttermilk soak, letting the excess drip back into the bowl. Dredge the chicken in the flour mixture, pressing so it adheres all over. Transfer the coated chicken to the rack and let stand for 30 minutes.\n" +
+        "Step 6:\n" +
+        "In a deep skillet, heat 1 inch of the oil to 350°F. Set another rack over a baking sheet lined with paper towels. Fry the chicken in batches, maintaining the oil temperature at 315°F; turn once, until golden and an instant-read thermometer inserted in the thickest part of each piece registers 160°F, 15 to 18 minutes." +
+        "Step 7:\n" +
+        "Transfer the chicken to the rack and let stand for 5 minutes.\n" +
+        "Step 8:\n" +
+        "Enjoy warm or at room temperature."
 
 
     },
@@ -358,11 +359,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins: ['Italy', 'Belgium'],
+      stars: 4,
       imageUrl: '/assets/food-14 (5).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Lamb kleftiko is a rustic, traditional Greek recipe made with slow-cooked lamb that’s first marinated in garlic, olive oil and lemon juice. This traditional recipe was originally cooked in an earth oven, a simple pit in the ground, used to trap heat and smoke!",
       ings: "¾ cup pizza sauce(180 mL)" +
         " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
         "1 tablespoon olive oil" +
@@ -393,11 +394,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins: ['East-Asia'],
+      stars: 5,
       imageUrl: '/assets/food-14 (7).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Pistachio-crusted salmon is a gourmet dinner without the gourmet skills! Prepare this with a handful of ingredients in less than 20 minutes!",
       ings: "¾ cup pizza sauce(180 mL)" +
         " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
         "1 tablespoon olive oil" +
@@ -431,7 +432,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food-14 (8).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Malai Kofta is a delicious dish of fried balls of potato and paneer in a rich and creamy mild gravy made with sweet onions and tomatoes. This melt-in-your-mouth recipe is a labor of love, but one that is well worth it!",
       ings: "¾ cup pizza sauce(180 mL)" +
         " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
         "1 tablespoon olive oil" +
@@ -461,11 +462,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
+      origins: ['US', 'East-China','UK'],
       stars: 3,
       imageUrl: '/assets/food-14 (9).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Blueberry pie is a pie with a blueberry filling. Blueberry pie is readily made because it does not require pitting or peeling of fruit. It usually has a top and bottom crust. The top crust can be circular, but the pie can also have a crumble crust or no top crust!",
       ings: "¾ cup pizza sauce(180 mL)" +
         " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
         "1 tablespoon olive oil" +
@@ -495,11 +496,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins:['Italy', 'East-China'],
+      stars: 4,
       imageUrl: '/assets/food-15 (1).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "A chili burger (also known as a chili size, or simply size, stemming from 'hamburger size') is a type of hamburger.  It consists of a hamburger, with the patty topped with chili con carne.  It is often served open-faced, and sometimes the chili is served alongside the burger rather than on top. The chili may be served alone, or with cheese, onions, or occasionally tomatoes as garnishes!",
       ings: "¾ cup pizza sauce(180 mL)" +
         " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
         "1 tablespoon olive oil" +
@@ -530,11 +531,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins:['Italy', 'East-China'],
+      stars: 5,
       imageUrl: '/assets/food-15 (2).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "This Cube Steak is a tender and juicy beef steak seared in beef broth, onion, and garlic powder, then made with the best mushroom gravy. A simple and delicious meal made in less than 30 minutes.I love to cook beef, and steak is one of my favorite ways to do that! For more simple steak recipes, try this Garlic Butter Herb Steak Bites with Potatoes, this delicious Brown Sugar Garlic Flank Steak, or these yummy Creamy Garlic Steak Bites with Mushrooms!",
       ings: "2 pounds beef cube steak\n" + "¼ cup all-purpose flour\n" +
         "1 teaspoon salt\n" +
         "¼ teaspoon pepper\n" +
@@ -556,11 +557,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
+      origins: ['Persia', 'Middle-East-China'],
       stars: 3,
       imageUrl: '/assets/food-15 (2).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "This unusual cake gets its all-natural flavor and color from an infusion of fresh blackberry purée. Whether finished with fruity whipped cream or tangy cream cheese frosting, it makes an easy summer dessert or a slightly indulgent addition to brunch!",
       ings: "Topping:\n\n ¼ cup brown sugar\n 2 tablespoons butter\n 2 cups fresh blackberries\n ¾ cup white sugar\n Cake:\n 1 cup white sugar\n ½ cup butter, softened\n 2 large eggs\n 1 ½ cups all-purpose flour\n 2 teaspoons baking powder\n ½ teaspoon salt\n ¼ cup milk",
       prep: "Step 1:\n Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment. Melt ¼ cup brown sugar and 2 tablespoons butter together in a saucepan over medium heat.\n Step 2:\n Add 2 cups fresh blackberries to the brown sugar mixture; cook and stir until the mixture bubbles, 1 to 3 minutes. Stir ¾ cup white sugar into the berries, crush the berries slightly with a fork, and continue cooking until the berries are hot and slightly broken-down, about 5 minutes more; remove from heat and pour into a 9-inch cake pan.\n Step 3:\n In a bowl, beat 1 cup white sugar and ½ cup butter together with an electric mixer until light and fluffy; beat in the eggs.Whisk 1 ½ cups all-purpose flour, 2 teaspoons baking powder, and ½ teaspoon salt together in a bowl.\n Step 4:\n Alternately stir the flour and ¼ cup milk into the butter mixture, beginning and ending with the flour mixture.\n Step 5:\n Mix vanilla into the batter. Pour the batter over the blackberry mixture in the 9-inch cake pan. Place the cake on the prepared baking sheet in case of spillage as it bakes.\n Step 6:\n Bake the cake in the preheated oven until cooked through, 35 to 40 minutes. Let the cake cool in the pan until warm but not completely cooled, about 30 minutes. Run a knife along the inside edge of the pan to separate the cake from the sides, place a cake plate over the top of the pan, and flip the pan. Lift the pan slowly to release the cake from the pan.",
 
@@ -576,7 +577,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food-15 (4).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-
+      desc: "Soft and tender vanilla cake filled with strawberry compote, frosted with strawberry cream, and mouth-watering strawberry jello. Adding to this luscious fest the cake is decorated with fresh and juicy strawberries!",
       ings: "1 (16.5 ounce) package strawberry cake mix\n" +
         "1 cup water\n" +
         "3 large eggs\n" +
@@ -603,36 +604,37 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins:['German', 'Middle-East-China'],
+      stars: 2,
       imageUrl: '/assets/food-15 (5).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-      ings: "2Red chilli flakes 1 teaspoon\n"+
-      "Garlic chopped 4 teaspoons\n"+
-      "Prawns (medium) shelled and deveined 8-12\n"+
-      "Egg noodles boiled 1 cup\n"+
-      "Salt to taste\n"+
-      "Oil 3 teaspoons\n"+
-      "Celery finely chopped 1 teaspoon\n"+
-      "Soy sauce 1 teaspoon\n"+
-      "Red chilli sauce 1 1/2 teaspoons\n"+
-      "Black pepper powder 1 teaspoon\n"+
-      "Vinegar 1 teaspoon\n"+
-      "Spring onion greens chopped 2 stalks",
-      prep: "Step 1:\n"+
-      "Take prawns in a bowl. Add 1 teaspoon garlic, chilli flakes, salt and mix well.\n"+
-      "Step 2:\n"+
-      "Heat 1 teaspoon oil in a non-stick pan. Add prawns and sauté on high heat till they are ¾th done. Remove from heat.\n"+
-      "Step 3:\n"+
-      "Heat the remaining oil in a non-stick wok. Add green chillies and sauté. Add the remaining garlic and sauté till it turns light brown.\n"+
-      "Step 4:\n"+
-      "Add celery, mix well and sauté well. Add noodles and toss. Add soy sauce, chilli sauce, salt, black pepper powder and mix well.\n"+
-      "Step 5:\n"+
-      "Add prawns and toss on high heat. Add some of the spring onion greens and toss.\n"+
-      "Step 6:\n"+
-      "Add vinegar and toss to mix. Switch off the heat.\n"+
-      "Step 7:\n"+
-      "Serve hot garnished with remaining chopped spring onion greens.",
+      desc: "This trending garlic chili oil noodles is one of the most requested recipes and is extremely delicious! If you are craving spicy Chinese noodles and got 10 minutes to prepare this is the right recipe for you. This dish is vegan and vegetarian friendly and no special ingredients or equipment is needed!",
+      ings: "2Red chilli flakes 1 teaspoon\n" +
+        "Garlic chopped 4 teaspoons\n" +
+        "Prawns (medium) shelled and deveined 8-12\n" +
+        "Egg noodles boiled 1 cup\n" +
+        "Salt to taste\n" +
+        "Oil 3 teaspoons\n" +
+        "Celery finely chopped 1 teaspoon\n" +
+        "Soy sauce 1 teaspoon\n" +
+        "Red chilli sauce 1 1/2 teaspoons\n" +
+        "Black pepper powder 1 teaspoon\n" +
+        "Vinegar 1 teaspoon\n" +
+        "Spring onion greens chopped 2 stalks",
+      prep: "Step 1:\n" +
+        "Take prawns in a bowl. Add 1 teaspoon garlic, chilli flakes, salt and mix well.\n" +
+        "Step 2:\n" +
+        "Heat 1 teaspoon oil in a non-stick pan. Add prawns and sauté on high heat till they are ¾th done. Remove from heat.\n" +
+        "Step 3:\n" +
+        "Heat the remaining oil in a non-stick wok. Add green chillies and sauté. Add the remaining garlic and sauté till it turns light brown.\n" +
+        "Step 4:\n" +
+        "Add celery, mix well and sauté well. Add noodles and toss. Add soy sauce, chilli sauce, salt, black pepper powder and mix well.\n" +
+        "Step 5:\n" +
+        "Add prawns and toss on high heat. Add some of the spring onion greens and toss.\n" +
+        "Step 6:\n" +
+        "Add vinegar and toss to mix. Switch off the heat.\n" +
+        "Step 7:\n" +
+        "Serve hot garnished with remaining chopped spring onion greens.",
 
 
     },
@@ -642,10 +644,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins: ['Asia-East'],
+      stars: 5,
       imageUrl: '/assets/food-15 (6).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
+      desc: "Beef noodle soup is a noodle soup made of stewed or braised beef, beef broth, vegetables and noodles. It exists in various forms throughout East and Southeast Asia.!",
       ings: "1 teaspoon oil, or as needed\n" + "6 ounces round steak, thinly sliced\n" + "1 teaspoon onion powder\n" + "1 teaspoon garlic powder\n" + "¼ cup onion, chopped\n" + "1 (32 fluid ounce) container beef broth\n" + "¼ cup brown sugar\n" + "2 tablespoons soy sauce\n" + "1 teaspoon ground ginger\n" +
         "1 teaspoon sriracha hot sauce, or more to taste\n" + "1 (8 ounce) package thin rice noodles, broken into pieces\n" + "1 cup diced carrots\n" + "1 cup sliced cabbage\n" + "½ green bell pepper, sliced\n" +
         "½ red bell pepper, sliced\n" + "½ cup diced celery",
@@ -660,23 +663,24 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins: ['Asia-East'],
+      stars: 4,
       imageUrl: '/assets/food-15 (7).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-      ings: "2 tablespoons dill seed\n"+
-      "2 tablespoons mustard seed\n"+
-      "2 tablespoons cumin seed\n"+
-      "2 tablespoons chili powder\n"+
-      "2 tablespoons paprika\n"+
-      "1 tablespoon red pepper flakes\n"+
-      "2 sprigs rosemary\n"+
-      "10 sprigs thyme\n"+
-      "3 sprigs dill\n"+
-      "2 sprigs sage\n"+
-      "½ bunch parsley\n"+
-      "30 live, hard-shell blue crabs",
-      prep: "Step 1:\n"+"Crush dill seed, mustard, and cumin in a spice grinder or with a mortar and pestle. Pour the spices into a 5 gallon stockpot; add chili powder, paprika, red pepper flakes, rosemary, thyme, dill, sage, and parsley. Fill the pot 3/4 full with water, and bring to a rolling boil over an intense flame.\n"+"Step 2:\n"+"Add blue crabs, cover the pot, and boil until all of the shells turn red, and the meat is no longer translucent, about 20 minutes. Stir the crabs occasionally as they boil to ensure even cooking.",
+      desc: "Crab is one of the best possible dietary sources of protein available. It contains almost as much protein per 100 grams as meats without anywhere near the same levels of saturated fat, which is linked to an increased risk of heart disease.!",
+      ings: "2 tablespoons dill seed\n" +
+        "2 tablespoons mustard seed\n" +
+        "2 tablespoons cumin seed\n" +
+        "2 tablespoons chili powder\n" +
+        "2 tablespoons paprika\n" +
+        "1 tablespoon red pepper flakes\n" +
+        "2 sprigs rosemary\n" +
+        "10 sprigs thyme\n" +
+        "3 sprigs dill\n" +
+        "2 sprigs sage\n" +
+        "½ bunch parsley\n" +
+        "30 live, hard-shell blue crabs",
+      prep: "Step 1:\n" + "Crush dill seed, mustard, and cumin in a spice grinder or with a mortar and pestle. Pour the spices into a 5 gallon stockpot; add chili powder, paprika, red pepper flakes, rosemary, thyme, dill, sage, and parsley. Fill the pot 3/4 full with water, and bring to a rolling boil over an intense flame.\n" + "Step 2:\n" + "Add blue crabs, cover the pot, and boil until all of the shells turn red, and the meat is no longer translucent, about 20 minutes. Stir the crabs occasionally as they boil to ensure even cooking.",
     },
     {
       id: 23,
@@ -684,25 +688,26 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins: ['Asia-East'],
+      stars: 4,
       imageUrl: '/assets/food-17 (1).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
-      ings: "1 tablespoon vegetable oil\n"+
-      "1 cup long grain white rice\n"+
-      "1 ½ cups chicken broth\n"+
-      "1 tomato, seeded and chopped\n"+
-      "½ onion, finely chopped\n"+
-      "½ green bell pepper, finely chopped\n"+
-      "1 fresh jalapeno pepper, chopped\n"+
-      "½ cup chopped fresh cilantro\n"+
-      "1 cube chicken bouillon\n"+
-      "1 clove garlic, halved\n"+
-      "½ teaspoon ground cumin\n"+
-      "salt and pepper to taste",
-      prep:"Step 1:\n"+"Heat oil in a medium saucepan over medium heat. Add rice; cook and stir for 3 minutes. Pour in chicken broth and bring to a boil.\n"+
+      desc: "Complexity and Variation. Mexican cuisine is also noteworthy because of the cuisine's subtle complexity. Chili peppers bring spice and heat that lights up the mouth. Both corn and wheat tortillas provide an easy way to wrap proteins, fill them with lots of types of beans and other ingredients and bring them anywhere!",
+      ings: "1 tablespoon vegetable oil\n" +
+        "1 cup long grain white rice\n" +
+        "1 ½ cups chicken broth\n" +
+        "1 tomato, seeded and chopped\n" +
+        "½ onion, finely chopped\n" +
+        "½ green bell pepper, finely chopped\n" +
+        "1 fresh jalapeno pepper, chopped\n" +
+        "½ cup chopped fresh cilantro\n" +
+        "1 cube chicken bouillon\n" +
+        "1 clove garlic, halved\n" +
+        "½ teaspoon ground cumin\n" +
+        "salt and pepper to taste",
+      prep: "Step 1:\n" + "Heat oil in a medium saucepan over medium heat. Add rice; cook and stir for 3 minutes. Pour in chicken broth and bring to a boil.\n" +
 
-      "Step 2:\n"+"Stir in tomato, onion, bell pepper, and jalapeño. Add cilantro, bouillon, garlic, cumin, salt, and pepper; bring to a boil. Cover, reduce the heat to low, and simmer until rice is tender and all liquid has been absorbed, about 20 minutes.",
+        "Step 2:\n" + "Stir in tomato, onion, bell pepper, and jalapeño. Add cilantro, bouillon, garlic, cumin, salt, and pepper; bring to a boil. Cover, reduce the heat to low, and simmer until rice is tender and all liquid has been absorbed, about 20 minutes.",
 
 
     },
@@ -712,10 +717,11 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['India'],
-      stars: 3,
+      origins: ['Persia'],
+      stars: 2,
       imageUrl: '/assets/food-17 (2).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
+      desc: "Strawberry milkshakes are one of the most classic and nutritious drinks of all time. It has been a favorite of all of us and we cannot deny that. It is best to have strawberry in the form of milkshakes and juices because it contains Vitamin C and is a high source of potassium and magnesium!",
       ings: "4 ounces strawberries, hulled\n" +
         "1 cup milk\n" +
         "1 tablespoon honey\n" +
@@ -734,6 +740,7 @@ export class FoodItemsService {
       stars: 3,
       imageUrl: '/assets/food-17 (3).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
+      desc: "Our world-famous fruitcake now has a gluten-free alternative. Made with crunchy pecans, hand-picked pineapples, and all-natural honey, our Gluten-Free Fruitcake has good stuff baked right inside. Presliced for your snacking convenience, now is your chance to savor the flavor of our Bakery's most popular dessert, minus that pesky gluten!",
       ings: "¾ cup white sugar\n" +
         "½ cup water\n" +
         "¼ teaspoon salt\n" +

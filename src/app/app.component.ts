@@ -15,9 +15,13 @@ export class AppComponent {
   fname!:any;
   lname!:any;
   image!:any;
+
+
   baseUrl : string = "https://wtsacademy.dedicateddevelopers.us/uploads/user/profile_pic/";
 loading : boolean = false;
   constructor(private router : Router,private user: StoreServiceService,private http : ApiServiceService){}
+
+ 
   ngOnInit(): void {
     this.router.events.subscribe(event =>{
       if (event instanceof RouteConfigLoadStart){
