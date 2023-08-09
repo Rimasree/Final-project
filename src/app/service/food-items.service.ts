@@ -364,26 +364,27 @@ export class FoodItemsService {
       imageUrl: '/assets/food-14 (5).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
       desc: "Lamb kleftiko is a rustic, traditional Greek recipe made with slow-cooked lamb that’s first marinated in garlic, olive oil and lemon juice. This traditional recipe was originally cooked in an earth oven, a simple pit in the ground, used to trap heat and smoke!",
-      ings: "¾ cup pizza sauce(180 mL)" +
-        " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
-        "1 tablespoon olive oil" +
-        "1 ½ teaspoons cornmeal" +
-        "1 lb pizza dough(455 g)" +
-        "1 ½ cups shredded mozzarella cheese(150 g)" +
-        "1 ½ cups shredded chicken(190 g)" +
-        "3 pieces bacon, torn into ½-inch (1 1/4 cm) pieces" +
-        "1 small handful fresh baby spinach" +
-        "¾ cup cherry tomato(150 g), halved" +
-        "2 tablespoons red onion, minced" +
-        "ranch dressing, for drizzling",
-      prep: "1.Preheat oven to 450ºF (230ºC)." +
-        "2.In a small bowl, whisk together pizza sauce with Frank’s Red Hot Original. Set aside." +
-        "3.Drizzle a 12-inch (30 ½ cm) cast iron skillet with olive oil. Use your hand or a paper towel to evenly coat the pan with oil. Sprinkle pan with cornmeal." +
-        "4.Press pizza dough into the pan so that it covers the whole surface evenly." +
-        "5.Spread spicy pizza sauce on the dough. Top with mozzarella, chicken, and bacon. Scatter spinach, cherry tomatoes, and red onion on top." +
-        "6.Bake pizza for 14–16 minutes until edges are browned and crisp." +
-        "7.Remove from oven and let cool for 5 minutes, then drizzle with Frank’s Red Hot Original and ranch dressing. Slice and serve." +
-        "8.Enjoy!"
+      ings: "1 leg of lamb, 1.2-1.5 kgs (you can always use shoulder too, or both)\n"+
+      "1 bulb of garlic\n"+
+      "2 lemons\n"+
+      "1 bunch of oregano, fresh, chopped or 1 tbs dried oregano\n"+
+      "1kg floury potatoes, such as Charlotte or Estima\n"+
+      "4 bay leaves\n"+
+      "175ml of white wine\n"+
+      "salt\n"+
+      "pepper\n"+
+      "olive oil",
+      prep: "Step 1:\n"+"The day before cooking, take a small paring knife and make approximately 15-16 incisions into the flesh of the lamb. Smash the garlic bulb with the palm of your hand and peel the garlic gloves. Slice each clove in half and then insert each sliver into the incisions\n"+
+      "Step 2:\n"+
+      "Season generously with salt, pepper and oregano and place into a freezer bag. Drizzle a good amount of olive oil into the bag along with juice from one lemon and shake and rub all over. Leave overnight in the fridge\n"+
+      "Step 3:\n"+
+      "The next day, preheat your oven to 140°C/gas mark\n"+
+      "Step 4:\n"+
+      "Remove the meat from the fridge and allow it to come up to room temperature. Take a large roasting tray and line it with two lengths of strong foil, lying them over each other to create a cross. Wash the potatoes, quarter them and spread evenly on the bottom of the tray, along with the bay leaves. Place the lamb on top of the potatoes and drizzle everything with another splash of olive oil and the white wine\n"+
+      "Step 5:\n"+
+      "Juice and zest the second lemon and drizzle over the top of the lamb. Pull the edges of the foil together to wrap and seal, trying to leave some space above the lamb for steam to circulate\n"+
+      "Step 6:\n"+
+      "Place in the oven and leave to slowly braise for 5 hours, after which time the meat should be falling off the bone. Spoon a generous serving of potatoes on a plate, place the shredded lamb on top and drizzle over the tray juices. Eat with a nice Greek salad as accompaniment"
 
 
     },
@@ -399,26 +400,21 @@ export class FoodItemsService {
       imageUrl: '/assets/food-14 (7).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
       desc: "Pistachio-crusted salmon is a gourmet dinner without the gourmet skills! Prepare this with a handful of ingredients in less than 20 minutes!",
-      ings: "¾ cup pizza sauce(180 mL)" +
-        " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
-        "1 tablespoon olive oil" +
-        "1 ½ teaspoons cornmeal" +
-        "1 lb pizza dough(455 g)" +
-        "1 ½ cups shredded mozzarella cheese(150 g)" +
-        "1 ½ cups shredded chicken(190 g)" +
-        "3 pieces bacon, torn into ½-inch (1 1/4 cm) pieces" +
-        "1 small handful fresh baby spinach" +
-        "¾ cup cherry tomato(150 g), halved" +
-        "2 tablespoons red onion, minced" +
-        "ranch dressing, for drizzling",
-      prep: "1.Preheat oven to 450ºF (230ºC)." +
-        "2.In a small bowl, whisk together pizza sauce with Frank’s Red Hot Original. Set aside." +
-        "3.Drizzle a 12-inch (30 ½ cm) cast iron skillet with olive oil. Use your hand or a paper towel to evenly coat the pan with oil. Sprinkle pan with cornmeal." +
-        "4.Press pizza dough into the pan so that it covers the whole surface evenly." +
-        "5.Spread spicy pizza sauce on the dough. Top with mozzarella, chicken, and bacon. Scatter spinach, cherry tomatoes, and red onion on top." +
-        "6.Bake pizza for 14–16 minutes until edges are browned and crisp." +
-        "7.Remove from oven and let cool for 5 minutes, then drizzle with Frank’s Red Hot Original and ranch dressing. Slice and serve." +
-        "8.Enjoy!"
+      ings: "¼ cup crushed pistachios\n" +
+        "2 tablespoons panko bread crumbs\n" +
+        "1 tablespoon grated Parmesan cheese\n" +
+        "1 tablespoon butter, melted\n" +
+        "4 (6 ounce) fillets salmon with skin, center cut\n" +
+        "salt and ground black pepper to taste\n" +
+        "2 tablespoons olive oil\n" +
+        "1 tablespoon Dijon mustard\n" +
+        "4 lemon wedges",
+      prep: "Step 1:\n" + "Preheat the oven to 375 degrees F (190 degrees C).\n" +
+        "Step 2:\n" + "Combine pistachios, bread crumbs, Parmesan cheese, and butter in a small bowl; stir with a fork until evenly combined.\n" +
+        "Step 3:\n" + "Lightly season salmon fillets with salt and pepper on both sides.\n" +
+        "Step 4:\n" + "Heat olive oil in a large oven-safe skillet over medium heat. Sear salmon fillets, flesh-side down, for 2 to 3 minutes. Turn heat off and flip salmon pieces over so skin side is down.\n" +
+        "Step 5:\n" + "Brush tops of salmon evenly with Dijon mustard. Top with pistachio mixture, pressing mixture down onto salmon.\n" +
+        "Step 6:\n" + "Bake in the preheated oven until salmon flakes easily with a fork, 10 to 12 minutes. Serve with lemon wedges."
 
 
     },
@@ -433,26 +429,8 @@ export class FoodItemsService {
       imageUrl: '/assets/food-14 (8).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
       desc: "Malai Kofta is a delicious dish of fried balls of potato and paneer in a rich and creamy mild gravy made with sweet onions and tomatoes. This melt-in-your-mouth recipe is a labor of love, but one that is well worth it!",
-      ings: "¾ cup pizza sauce(180 mL)" +
-        " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
-        "1 tablespoon olive oil" +
-        "1 ½ teaspoons cornmeal" +
-        "1 lb pizza dough(455 g)" +
-        "1 ½ cups shredded mozzarella cheese(150 g)" +
-        "1 ½ cups shredded chicken(190 g)" +
-        "3 pieces bacon, torn into ½-inch (1 1/4 cm) pieces" +
-        "1 small handful fresh baby spinach" +
-        "¾ cup cherry tomato(150 g), halved" +
-        "2 tablespoons red onion, minced" +
-        "ranch dressing, for drizzling",
-      prep: "1.Preheat oven to 450ºF (230ºC)." +
-        "2.In a small bowl, whisk together pizza sauce with Frank’s Red Hot Original. Set aside." +
-        "3.Drizzle a 12-inch (30 ½ cm) cast iron skillet with olive oil. Use your hand or a paper towel to evenly coat the pan with oil. Sprinkle pan with cornmeal." +
-        "4.Press pizza dough into the pan so that it covers the whole surface evenly." +
-        "5.Spread spicy pizza sauce on the dough. Top with mozzarella, chicken, and bacon. Scatter spinach, cherry tomatoes, and red onion on top." +
-        "6.Bake pizza for 14–16 minutes until edges are browned and crisp." +
-        "7.Remove from oven and let cool for 5 minutes, then drizzle with Frank’s Red Hot Original and ranch dressing. Slice and serve." +
-        "8.Enjoy!"
+      ings: "4 Large potatoes, boiled250 gms paneer (cottage cheese)50 gms maida1 tbsp Coriander Leaves, chopped3 Onions1 tbsp ginger garlic paste2 Tomatoes200 ml malai or cream2 tbsp raisins and cashew nuts50 gms cashew nuts paste1/2 tsp haldi (turmeric)1/2 tsp red chilli powder1/2 tsp kitchen king masala1 tbsp Kasturi methi (dry Fenugreek)to taste salt1 tbsp sugar",
+      prep: "Refrigerate the boiled potatoes for 4 to 6 hours as this makes it easy to cook koftas.2.Mash the boiled potatoes, paneer, maida. The mix should not be too hard or too soft. Add salt, chopped coriander leaves and mix well.3.Cut the raisins and cashew nuts into very small pieces and add 1/2 tsp of sugar to the mix.4.Heat up the oil for deep frying.5.Roll out the balls from the dough you prepared and stuff the dry fruit mix in the centre.6.Fry the koftas and if they break in hot oil then dust them with dry maida before putting them in."
 
 
     },
@@ -462,31 +440,21 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins: ['US', 'East-China','UK'],
+      origins: ['US', 'East-China', 'UK'],
       stars: 3,
       imageUrl: '/assets/food-14 (9).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
       desc: "Blueberry pie is a pie with a blueberry filling. Blueberry pie is readily made because it does not require pitting or peeling of fruit. It usually has a top and bottom crust. The top crust can be circular, but the pie can also have a crumble crust or no top crust!",
-      ings: "¾ cup pizza sauce(180 mL)" +
-        " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
-        "1 tablespoon olive oil" +
-        "1 ½ teaspoons cornmeal" +
-        "1 lb pizza dough(455 g)" +
-        "1 ½ cups shredded mozzarella cheese(150 g)" +
-        "1 ½ cups shredded chicken(190 g)" +
-        "3 pieces bacon, torn into ½-inch (1 1/4 cm) pieces" +
-        "1 small handful fresh baby spinach" +
-        "¾ cup cherry tomato(150 g), halved" +
-        "2 tablespoons red onion, minced" +
-        "ranch dressing, for drizzling",
-      prep: "1.Preheat oven to 450ºF (230ºC)." +
-        "2.In a small bowl, whisk together pizza sauce with Frank’s Red Hot Original. Set aside." +
-        "3.Drizzle a 12-inch (30 ½ cm) cast iron skillet with olive oil. Use your hand or a paper towel to evenly coat the pan with oil. Sprinkle pan with cornmeal." +
-        "4.Press pizza dough into the pan so that it covers the whole surface evenly." +
-        "5.Spread spicy pizza sauce on the dough. Top with mozzarella, chicken, and bacon. Scatter spinach, cherry tomatoes, and red onion on top." +
-        "6.Bake pizza for 14–16 minutes until edges are browned and crisp." +
-        "7.Remove from oven and let cool for 5 minutes, then drizzle with Frank’s Red Hot Original and ranch dressing. Slice and serve." +
-        "8.Enjoy!"
+      ings: "Sugar: This blueberry pie recipe starts with a cup of white sugar.\n" +
+        "Cornstarch: Cornstarch thickens the blueberry pie filling, preventing runniness.\n" +
+        "Cinnamon: Ground cinnamon adds subtle warmth.\n" +
+        "Salt: A pinch of salt enhances the overall flavor of the blueberry pie filling, but it won't make it taste salty.\n" +
+        "Blueberries: Of course, you'll need fresh blueberries! If you can't find fresh, frozen (and thawed) will work.\n" +
+        "Pie crust: Use a store-bought or homemade pastry crust.\n" +
+        "Butter: You'll need just a tablespoon of butter.",
+      prep: "1. Sprinkle the berries with sugar, cornstarch, cinnamon, and salt.\n" +
+        "2. Pour the filling into the bottom pie crust and finish with a lattice crust on top.\n" +
+        "3. Bake until the filling is bubbling and the crust is golden."
 
 
     },
@@ -496,31 +464,24 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins:['Italy', 'East-China'],
+      origins: ['Italy', 'East-China'],
       stars: 4,
       imageUrl: '/assets/food-15 (1).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
       desc: "A chili burger (also known as a chili size, or simply size, stemming from 'hamburger size') is a type of hamburger.  It consists of a hamburger, with the patty topped with chili con carne.  It is often served open-faced, and sometimes the chili is served alongside the burger rather than on top. The chili may be served alone, or with cheese, onions, or occasionally tomatoes as garnishes!",
-      ings: "¾ cup pizza sauce(180 mL)" +
-        " 1 ½ tablespoons Frank's Red Hot Original, plus more for drizzling" +
-        "1 tablespoon olive oil" +
-        "1 ½ teaspoons cornmeal" +
-        "1 lb pizza dough(455 g)" +
-        "1 ½ cups shredded mozzarella cheese(150 g)" +
-        "1 ½ cups shredded chicken(190 g)" +
-        "3 pieces bacon, torn into ½-inch (1 1/4 cm) pieces" +
-        "1 small handful fresh baby spinach" +
-        "¾ cup cherry tomato(150 g), halved" +
-        "2 tablespoons red onion, minced" +
-        "ranch dressing, for drizzling",
-      prep: "1.Preheat oven to 450ºF (230ºC)." +
-        "2.In a small bowl, whisk together pizza sauce with Frank’s Red Hot Original. Set aside." +
-        "3.Drizzle a 12-inch (30 ½ cm) cast iron skillet with olive oil. Use your hand or a paper towel to evenly coat the pan with oil. Sprinkle pan with cornmeal." +
-        "4.Press pizza dough into the pan so that it covers the whole surface evenly." +
-        "5.Spread spicy pizza sauce on the dough. Top with mozzarella, chicken, and bacon. Scatter spinach, cherry tomatoes, and red onion on top." +
-        "6.Bake pizza for 14–16 minutes until edges are browned and crisp." +
-        "7.Remove from oven and let cool for 5 minutes, then drizzle with Frank’s Red Hot Original and ranch dressing. Slice and serve." +
-        "8.Enjoy!"
+      ings: "14 1/2 Oz H‑E‑B Chili No Beans\n" +
+        "1 Lb ground chuck\n" +
+        "1/2 cup(s) green onions, minced\n" +
+        "1 cup(s) H‑E‑B Nacho Cheese Tortilla Chips\n" +
+        "8 Oz H‑E‑B Shredded Mexican Cheese\n" +
+        "4 H‑E‑B Bake Shop Hamburger Buns",
+      prep: "Step 1:\n" + "In a small saucepan simmer chili over low heat for 3 to 5 minutes or until hot\n" + "stirring occasionally. Set aside and keep warm.\n" +
+        "Step 2:\n" + "Place ground beef and green onions in a large mixing bowl.\n" +
+        "Step 3:\n" + "Using your hands, crumble nacho cheese chips over the bowl.Still using your hands, mix everything together until completely combined.Form into 4 patties and set aside.\n" +
+        "Step 4:\n" + "Preheat a large non- stick pan to medium - high for 3 to 4 minutes.\n" +
+        "Step 5:\n" + "Once hot, add patties and cook 3 to 4 minutes.Flip patties, cook 2 minutes then add cheese and cook an additional 2 minutes.Remove patties to a plate.\n" +
+        "Step 6:\n" + "Wipe pan clean with a paper towel and reduce heat to low.Add buns and warm 2 minutes.\n" +
+        "Step 7:\n" + "To assemble each burger, place patty on bottom half of bun, add 1 / 4 cup of chili then add top half of bun.Enjoy."
 
 
     },
@@ -531,7 +492,7 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins:['Italy', 'East-China'],
+      origins: ['Italy', 'East-China'],
       stars: 5,
       imageUrl: '/assets/food-15 (2).jpeg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
@@ -604,7 +565,7 @@ export class FoodItemsService {
       cookTime: '10-15',
       price: 5,
       favorite: false,
-      origins:['German', 'Middle-East-China'],
+      origins: ['German', 'Middle-East-China'],
       stars: 2,
       imageUrl: '/assets/food-15 (5).jpg',
       tags: ['FastFood', 'Pizza', 'Lunch'],
